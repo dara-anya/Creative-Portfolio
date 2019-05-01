@@ -1,0 +1,41 @@
+p, button, input, textarea, span{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.introduction{
+    text-align: center;
+    margin-top: 25%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+
+#fade-in-text{
+    float: left;
+}
+
+#page-no{
+    float: right;
+}
+
+#cut-to-text{
+    float: left;
+    margin-left: 77%;
+}
+
+#greeting{
+    animation: focusing 2s;
+}
+@keyframes focusing{
+    0% {filter: blur(50px);}
+    25% {filter: blur(25px);}
+    50% {filter: blur(0px);}
+    75% {filter: blur(5px);}
+    100% {filter: blur(00px);}
+}
+
+
+
